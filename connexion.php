@@ -11,4 +11,5 @@ $connexion = new mysqli($serveur, $utilisateur, $motDePasse, $nomDeLaBase);
 if ($connexion->connect_error) {
     die("Échec de la connexion à la base de données : " . $connexion->connect_error);
 }
-?>
+
+// Caca
