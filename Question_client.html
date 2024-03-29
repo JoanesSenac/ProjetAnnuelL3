@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Question_Client</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="Logo_2.jpg" height="70" alt="Logo"> 
+            </div>
+            <div class="go-muscu">GO MUSCU</div>
+            <div class="cta">
+                <a href="Homepage.html" class="btn">Accueil</a>
+                <a href="Inscription.html" class="btn">Inscription</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <h2>Information personnelle</h2>
+        <form id="form" action="Question_client.html" method="post">
+            <label for="poids">Poids (kg):</label>
+            <input type="number" id="poids" name="poids" required><br>
+
+            <label for="taille">Taille (cm):</label>
+            <input type="number" id="taille" name="taille" required><br>
+
+            <label for="niveau">Niveau :</label>
+            <select id="niveau" name="niveau">
+                <option value="debutant">Débutant</option>
+                <option value="intermediaire">Intermédiaire</option>
+                <option value="confirme">Confirmé</option>
+            </select><br>
+
+            <label for="objectif">Objectif :</label>
+            <select id="objectif" name="objectif">
+                <option value="perte-poids">Perte de poids</option>
+                <option value="prise-masse">Prise de masse</option>
+                <option value="seche">Sèche</option>
+                <option value="entretien">Entretien</option>
+            </select><br>
+
+            <label for="temps-libre">Temps libre (en heures) :</label>
+            <input type="number" id="temps-libre" name="temps-libre" required><br>
+
+            <label for="seances">Nombre de séances par semaine :</label>
+            <input type="number" id="seances" name="seances" min="1" max="7" required><br><br>
+
+            <input type="submit" value="Suivant" class="btn">
+        </form>
+    </div>
+</body>
+</html>

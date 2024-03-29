@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">
+                <img src="Logo_2.jpg" height="70" alt="Logo">
+            </div>
+            <div class="go-muscu">GO MUSCU</div>
+            <div class="cta">
+                <a href="Homepage.html" class="btn">Accueil</a>
+                <a href="Inscription.html" class="btn">Inscription</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="form-container">
+        <div class="wrapper form">
+            <h2>Connexion Client</h2>
+            <form action="traitement_connexion.php" method="post">
+                <label for="email">Adresse e-mail :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="password">Mot de passe :</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+                <input class="btn" type="submit" value="Se connecter">
+                <p>Pas encore inscrit ? <a href="Inscription.html" class="btn.container">Inscription</a></p>
+            </form>
+        </div>
+
+        <div class="wrapper form">
+            <h2>Connexion Administrateur</h2>
+            <form action="traitement_connexion.php" method="post">
+                <label for="email">Adresse e-mail :</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="password">Mot de passe :</label><br>
+                <input type="password" id="password" name="password" required><br><br>
+                <input class="btn" type="submit" value="Se connecter">
+                <br>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

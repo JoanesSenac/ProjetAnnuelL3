@@ -1,0 +1,41 @@
+
+:root {
+            --main-bg-color: rgba(135, 182, 221, 0.911);
+            --main-text-color: beige;
+            --header-text-color: rgb(120, 33, 202);
+            --table-bg-color: rgb(231, 122, 195);
+        }
+
+    body {
+            background-color: var(--main-bg-color);
+            color: var(--main-text-color);
+        }
+
+    h1, h2, h3, h4, h5, h6 {
+            color: var(--header-text-color);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+    table {
+            border-color: aliceblue;
+            border-width: 5px;
+        }
+
+    table td, table th {
+            text-align: left;
+            background-color: var(--table-bg-color);
+            border: solid 5px;
+            border-spacing: 5px;
+            padding: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+    form {
+            font-size: medium;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+    ul, ol {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
