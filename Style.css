@@ -6,14 +6,18 @@
     box-sizing: border-box;
     font-family: monospace;
 }
-
-body {
-    background-color:url(C:\Users\33679\Desktop\projet_annuel\fond.jpg);
-    color: rgb(116, 216, 22);
-    font-family: monospace, andale mono;
-    margin: 0;
-    padding: 0;
+.imagedefond{
+    background-image: url("fondss.png");
+    background-position: center;
 }
+body {
+    font-family: monospace;
+    color: #5a9e0f;
+    margin: auto;
+    padding: 0;
+    justify-content: center;
+}
+
 
 .container {
     max-width: 800px;

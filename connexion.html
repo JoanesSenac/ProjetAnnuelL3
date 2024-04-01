@@ -24,25 +24,24 @@
     <div class="form-container">
         <div class="wrapper form">
             <h2>Connexion Client</h2>
-            <form action="traitement_connexion.php" method="post">
-                <label for="email">Adresse e-mail :</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="password">Mot de passe :</label><br>
-                <input type="password" id="password" name="password" required><br><br>
+            <form action="traitement_connexion_client.php" method="post">
+                <label for="client_email">Adresse e-mail :</label><br>
+                <input type="email" id="client_email" name="client_email" required><br><br>
+                <label for="client_password">Mot de passe :</label><br>
+                <input type="password" id="client_password" name="client_password" required><br><br>
                 <input class="btn" type="submit" value="Se connecter">
-                <p>Pas encore inscrit ? <a href="Inscription.html" class="btn.container">Inscription</a></p>
             </form>
+            <p>Pas encore inscrit ? <a href="Inscription.html" class="btn">Inscription</a></p>
         </div>
 
         <div class="wrapper form">
             <h2>Connexion Administrateur</h2>
-            <form action="traitement_connexion.php" method="post">
-                <label for="email">Adresse e-mail :</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-                <label for="password">Mot de passe :</label><br>
-                <input type="password" id="password" name="password" required><br><br>
+            <form action="traitement_connexion_admin.php" method="post">
+                <label for="admin_email">Adresse e-mail :</label><br>
+                <input type="email" id="admin_email" name="admin_email" required><br><br>
+                <label for="admin_password">Mot de passe :</label><br>
+                <input type="password" id="admin_password" name="admin_password" required><br><br>
                 <input class="btn" type="submit" value="Se connecter">
-                <br>
             </form>
         </div>
     </div>
